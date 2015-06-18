@@ -9,10 +9,7 @@ Simple Steam chat bot powered by NodeJS.
 
 ## Installation
 
-Edit your Steam credetials in `lib/config.js`
-
-Steam Guard support comming next release.
-
+Edit your Steam credentials in `lib/config.js`
 
 `npm install` to install dependencies
 
