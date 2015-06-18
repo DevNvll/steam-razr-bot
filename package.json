@@ -1,0 +1,31 @@
+{
+  "name": "steam-razr-bot",
+  "version": "0.0.1",
+  "description": "Simple steam chat bot",
+  "keywords": [
+    "steam",
+    "chatbot"
+  ],
+  "author":{
+    "name": "razr9",
+    "email": "hmartins505@gmail.com",
+    "url": "https://github.com/Razr9"
+  },
+  "repository": {
+      "type": "git"
+    , "url": "https://github.com/Razr9/steam-razr-bot.git"
+  },
+  "license": "MIT",
+  "main": "./lib/bot",
+  "dependencies": {
+    "steam": "0.6.x",
+    "winston": "1.0.x"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.8.x"
+  },
+  "scripts": {
+    "start": "node lib/bot"
+  }
+}
